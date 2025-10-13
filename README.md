@@ -31,7 +31,7 @@
 ### Variável de ambiente utilizada:
 AZURE_AI_KEY = [Key 1 do recurso AI]
 
-###Conclusão
+### Conclusão
 
 O projeto demonstra a integração completa entre:
 
