@@ -8,26 +8,12 @@
 
 ## Estrutura do Projeto
 
-Exercicio-4--Ti2/
-│
-├── BANCO/
-│ ├── script.SQL # Script SQL com tabelas e inserts
-│ ├── print-recurso.png # Print do recurso PostgreSQL criado no Azure
-│ └── print-select.png # Print da execução do SELECT no banco remoto
-│
-├── Cognitivo/
-│ ├── print-api-ai.png # Print do recurso de IA criado no Azure
-│ ├── print-resultado-final-ai # Print da execução da API de Análise de Sentimentos
-│ └── ex4-cognitivo/ # Projeto Maven (Java)
-│ ├── pom.xml
-│ └── src/
-│ └── main/java/br/com/ex4/App.java
-│── print-tela azure.png # Print do cadastro e vinculação com a AZURE
-└── README.md 
+<img width="587" height="333" alt="image" src="https://github.com/user-attachments/assets/ec94a2d1-186f-442d-9c3a-03944fb01ff0" />
+
 
 ---
 
-## ☁️ Banco de Dados (PostgreSQL no Azure)
+## Banco de Dados (PostgreSQL no Azure)
 
 - Criado um **Azure Database for PostgreSQL** (Single Server).  
 - Configuração de **usuário e senha** feita conforme orientações do professor.  
@@ -36,13 +22,13 @@ Exercicio-4--Ti2/
 
 ---
 
-## 🧠 Serviço Cognitivo (Azure AI)
+## Serviço Cognitivo (Azure AI)
 
 - Criado um **recurso Multi-service** no Azure chamado `ai-ex04`.  
 - Configuração com acesso de rede em **“Todas as redes”**.  
 - Utilizada a API `https://ai-ex04.cognitiveservices.azure.com/language/:analyze-text?api-version=2023-04-01`.
 
-### 🔑 Variável de ambiente utilizada:
+### Variável de ambiente utilizada:
 AZURE_AI_KEY = [Key 1 do recurso AI]
 
 O projeto demonstra a integração completa entre:
