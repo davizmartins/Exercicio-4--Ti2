@@ -15,8 +15,7 @@
 
 ## Banco de Dados (PostgreSQL no Azure)
 
-- Criado um **Azure Database for PostgreSQL** (Single Server).  
-- Configuração de **usuário e senha** feita conforme orientações do professor.  
+- Criado um "Azure Database for PostgreSQL".  
 - Tabelas criadas e populadas a partir do `script.SQL`.  
 - Conexão testada via **Azure Data Studio** (print em `BANCO/print-select.png`).
 
@@ -24,12 +23,10 @@
 
 ## Serviço Cognitivo (Azure AI)
 
-- Criado um **recurso Multi-service** no Azure chamado `ai-ex04`.  
-- Configuração com acesso de rede em **“Todas as redes”**.  
+- Criado um "recurso Multi-service" no Azure chamado `ai-ex04`.  
+- Configuração com acesso de rede em “Todas as redes”.  
 - Utilizada a API `https://ai-ex04.cognitiveservices.azure.com/language/:analyze-text?api-version=2023-04-01`.
 
-### Variável de ambiente utilizada:
-AZURE_AI_KEY = [Key 1 do recurso AI]
 
 ---
 ### Conclusão
