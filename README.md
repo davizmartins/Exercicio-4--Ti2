@@ -31,6 +31,8 @@
 ### Variável de ambiente utilizada:
 AZURE_AI_KEY = [Key 1 do recurso AI]
 
+###Conclusão
+
 O projeto demonstra a integração completa entre:
 
 Banco de dados PostgreSQL hospedado no Azure
