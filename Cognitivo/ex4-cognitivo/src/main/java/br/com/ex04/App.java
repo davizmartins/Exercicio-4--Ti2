@@ -6,15 +6,15 @@ import java.net.URI;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        // Endpoint do seu recurso (sem trocar nada se já estiver assim)
+        
         final String endpoint = "https://ai-ex04.cognitiveservices.azure.com/";
-        // Defina AZURE_AI_KEY com a Key 1 do portal (já fez isso)
+        
         final String key = System.getenv("AZURE_AI_KEY");
         if (key == null || key.isBlank()) {
             throw new IllegalStateException("Defina a variável de ambiente AZURE_AI_KEY com sua Key 1.");
         }
 
-        // Documentos em pt-BR
+        
         JSONArray documents = new JSONArray()
             .put(new JSONObject().put("id","1").put("text","Estou muito feliz com esse projeto!").put("language","pt"))
             .put(new JSONObject().put("id","2").put("text","O atendimento foi péssimo e me deixou irritado.").put("language","pt"))
